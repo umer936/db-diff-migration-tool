@@ -1,0 +1,6 @@
+services:
+  dbsync:
+    build: .
+    env_file: .env
+    stdin_open: true
+    tty: true
